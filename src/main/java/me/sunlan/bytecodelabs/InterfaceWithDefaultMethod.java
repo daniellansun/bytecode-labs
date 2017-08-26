@@ -1,7 +1,8 @@
 package me.sunlan.bytecodelabs;
 
 public interface InterfaceWithDefaultMethod {
-    default void hello() {
-
+    //void helloworld();
+    default void helloworld2() {
+        System.out.println("hello, world!");
     }
 }
